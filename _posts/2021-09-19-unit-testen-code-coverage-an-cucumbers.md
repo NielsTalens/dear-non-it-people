@@ -4,6 +4,10 @@ layout: post
 author: sal
 image: assets/images/testing/header.jpg
 description: What is automated testing and how does it work?
+tags:
+- quality
+- speed of delivery
+- what is this thing?
 featured: false
 hidden: false
 ---

@@ -5,6 +5,12 @@ author: sal
 image: assets/images/pipelines/pipes-MichaelGaida.jpg
 description: What are al these continuous things nowadays? Does it really
   matter?
+tags:
+- continuous delivery
+- technical practices
+- quality
+- speed of delivery
+- what is this thing?
 featured: true
 hidden: false
 ---

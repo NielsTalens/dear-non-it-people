@@ -5,6 +5,10 @@ author: sal
 image: assets/images/technical-debt/maintenance.jpg
 description: Who will be the one that pays off the technical debt? To be honest it
   will be all of us!
+tags:
+- technical debt
+- quality
+- what is this thing?
 featured: true
 hidden: false
 ---

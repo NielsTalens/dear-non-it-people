@@ -6,6 +6,8 @@ author: sal
 image: assets/images/tbdevelopment/trunk- khari-hayden.jpg
 description: What is trunk based development and why is it so important? Does it really
   matter?
+tags:
+- technical practices
 featured: false
 hidden: false
 ---
