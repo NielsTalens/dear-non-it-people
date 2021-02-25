@@ -4,7 +4,7 @@ title: "Dear non-IT people"
 description: "IT is often a black box for 'outsiders' with its own jargon, many abbreviations and often even its own culture. Things often sound very complex and new buzzwords pop up regularly with a new promise of speed, cost savings and future stability. Here you can find IT stuff explained and simplified."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: '/dear-non-it-people'
+baseurl: ''
 google_analytics: 'UA-122055434-2'
 include: ["_pages"]
 permalink: /:title/
