@@ -2,13 +2,12 @@
 layout: page
 title: Mediumish Template for Jekyll
 permalink: /about
-comments: true
 ---
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+<p>IT is often a black box for 'outsiders' with its own jargon, many abbreviations and often even its own culture. Things often sound very complex and new buzzwords pop up regularly with a new promise of speed, cost savings and future stability. Unfortunately, you don't always see these things reflected in the business. Still, you will be surprised at how relatively simple many IT things can be. Or better: should be. In a number of short blog posts I will try to explain some of the latest buzzwords and concepts so that they are understandable and you can better sense whether effort is being put into the right things at the right time.</p>
 
 <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
 <h4>Documentation</h4>
