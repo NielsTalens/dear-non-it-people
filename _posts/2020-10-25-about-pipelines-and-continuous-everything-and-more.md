@@ -5,7 +5,7 @@ author: sal
 image: assets/images/pipelines/pipes-MichaelGaida.jpg
 description: What are al these continuous things nowadays? Does it really
   matter?
-tags:
+categories:
 - continuous delivery
 - technical practices
 - quality
