@@ -1,0 +1,17 @@
+I"<	<p>Continuous integration, delivery &amp; deployment are a number of concepts that you have probably heard more and more often in recent years. They are not entirely new topics and have actually become the industry standard for software development over the last 10 years.</p>
+
+<p>In principle, continuous delivery is the process of automatically getting the code from someone’s computer to the end user. In short the three continuous things that you have probably heard about more often:</p>
+
+<h1 id="continuous-integration">Continuous integration</h1>
+<p>In this article I described how version management works in the basics. Continuous integration is triggered by the version control system. Every time a piece of code is sent to the version control repo server, the continuous integration server also gets to work. We then say that the pipeline is running. This pipeline is no different than a number of scripts that tell the server to build the code, then do the automatic test, then check the code for security and code quality and then put this code somewhere. If something is wrong in one step, the whole process stops.</p>
+
+<h1 id="continuous-delivery">Continuous delivery</h1>
+<p>Putting software on the server was often a difficult and annoying job. On the one hand it was a repetitive thing, but there were often scripts that you had to adhere to. If you were lucky. If you were unlucky, there was one person who always did it and knew how to do things. You know, the person who could never go on vacation.
+<img src="/dear-non-it-people/assets/images/pipelines/cd-all.png" alt="continuous delivery" /></p>
+
+<p>The continuous delivery process automatically puts the software on the server when you want it. It ensures that database changes or migrations are implemented, configuration in the network is correct, stops and starts the server if necessary, etc. Then it runs the acceptance tests to see if everything is okay.</p>
+
+<h1 id="continuous-deployment">Continuous deployment</h1>
+<p>The difference between continuous delivery and continuous deployment is that with continuous delivery you decide for yourself when you deploy to production, but with continuous deployment this always happens. So every change goes directly to the end user:
+<img src="/dear-non-it-people/assets/images/pipelines/deployment.png" alt="continuous deployment" /></p>
+:ET

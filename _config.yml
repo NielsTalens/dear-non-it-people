@@ -1,11 +1,11 @@
 # Site
 name: "Dear non-IT people"
 title: "Dear non-IT people"
-description: "IT explained, simplified and more stuff ...."
+description: "IT is often a black box for 'outsiders' with its own jargon, many abbreviations and often even its own culture. Things often sound very complex and new buzzwords pop up regularly with a new promise of speed, cost savings and future stability. Here you can find IT stuff explained and simplified."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: '/dear-non-it-people'
-google_analytics: 'G-D9W018VHG1'
+google_analytics: 'UA-122055434-2'
 include: ["_pages"]
 permalink: /:title/
 
@@ -16,10 +16,10 @@ authors:
     display_name: Niels
     avatar: 'assets/images/niels-avatar.png'
     # gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    email: info@nielstalens.nl
+    web: https://nielstalens.nl
+    linkedin: https://www.linkedin.com/in/nielstalens/
+    description: "Author of Dear non-it people, freelance Product Owner and IT Lead. Recreational developer. Interested in building the right things right."
   john:
     name: John
     display_name: John

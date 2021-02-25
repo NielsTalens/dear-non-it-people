@@ -1,0 +1,8 @@
+I"�<p>This article is about something we call versioning. It is one of the basic things you have to set up when developing software. You’ve probably heard the word Git before. This is one of the most widely used version control systems. Other related names you may hear are: SVN, Mecurial, GitLab, GitHub, BitBucket, Azure devops or AWS code commit.</p>
+
+<p>Version control
+Most of us have to deal with Office and OneDrive or Google Docs and Drive. The source file is somewhere on a server (often in the cloud) and anyone who has access can make changes to it. If you make a change locally (on your computer), I will see this reflected in the document on my computer. We can open the document in an editor (Word) but also in the browser if we want.</p>
+
+<p>While I’m typing this blog, I see that it is also immediately saved to Google Drive:
+<img src="/dear-non-it-people/assets/images/tbdevelopment/01-saved.jpg" alt="saving" /></p>
+:ET
