@@ -3,8 +3,7 @@ title: About pipelines and continuous everything and more
 layout: post
 author: sal
 image: assets/images/pipelines/pipes-MichaelGaida.jpg
-description: What are al these continuous things nowadays? Does it really
-  matter?
+description: What are al these continuous things nowadays? Does it really matter?
 categories:
 - continuous delivery
 - technical practices
@@ -15,21 +14,19 @@ featured: true
 hidden: false
 ---
 
-Continuous integration, delivery & deployment are a number of concepts that you have probably heard more and more often in recent years. They are not entirely new topics and have actually become the industry standard for software development over the last 10 years.
-
-In principle, continuous delivery is the process of automatically getting the code from someone's computer to the end user. In short the three continuous things that you have probably heard about more often:
+Continuous integration, delivery and deployment are a couple of concepts that you have probably heard more and more often in recent years. They are not entirely new topics and have actually become the industry standard for software development over the last 10 years.
 
 # Continuous integration
-In this article I described how version management works in the basics. Continuous integration is triggered by the version control system. Every time a piece of code is sent to the version control repo server, the continuous integration server also gets to work. We then say that the pipeline is running. This pipeline is no different than a number of scripts that tell the server to build the code, then do the automatic test, then check the code for security and code quality and then put this code somewhere. If something is wrong in one step, the whole process stops.
+In [this article]({{ site.baseurl }} /why-are-they-talking-about-trunk-based-development-for-the-last-couple-of-weeks/) I described the basics of version management. Continuous integration is triggered by the version control system. Every time a piece of code is sent to the version control server, the continuous integration server also gets to work. We then say that the pipeline is running. This pipeline is no different than a number of scripts that tell the server to build the code, then do the automatic test, then check the code for security and code quality and then put this code somewhere. If something is wrong in one step, the whole process stops.
 
 # Continuous delivery
-Putting software on the server was often a difficult and annoying job. On the one hand it was a repetitive thing, but there were often scripts that you had to adhere to. If you were lucky. If you were unlucky, there was one person who always did it and knew how to do things. You know, the person who could never go on vacation.
+Putting software on the server was often a difficult and annoying job. On one hand it was a repetitive thing, but there were often scripts that you had to adhere to. If you were lucky. If you were unlucky, there was one person who always did it and knew how to do things. You know, the person who could never go on vacation.
 ![continuous delivery]({{ site.baseurl }}/assets/images/pipelines/cd-all.png)
 
-The continuous delivery process automatically puts the software on the server when you want it. It ensures that database changes or migrations are implemented, configuration in the network is correct, stops and starts the server if necessary, etc. Then it runs the acceptance tests to see if everything is okay.
+The continuous delivery process automatically puts the software on the server. It ensures that database changes or migrations are implemented, configuration in the network is correct, stops and starts the server if necessary, etc. Then it runs the acceptance tests to see if everything is okay.
 
 # Continuous deployment
-The difference between continuous delivery and continuous deployment is that with continuous delivery you decide for yourself when you deploy to production, but with continuous deployment this always happens. So every change goes directly to the end user:
+The difference between continuous delivery and continuous deployment is that in the case of continuous delivery you decide for yourself when to deploy to production, but with continuous deployment this automaticly happens. So every change goes directly to the end user:
 ![continuous deployment]({{ site.baseurl }}/assets/images/pipelines/deployment.png)
 
 What problems are we actually solving?
@@ -43,16 +40,16 @@ What problems are we actually solving?
 * ...
 
 # Gold plating
-Creating and using a good pipeline is not only extremely useful and costs / time saving, but is also for many people also very nice to make. This is automation in the purest sense of the word. There is also a lot of great tooling and integrations with other systems. There is a small danger in this if we are not careful: continuous delivery is a way of working that is often very useful but never a goal in itself.
+Creating and using a good pipeline is not only extremely useful and costs / time saving, but is for many people also very nice to do. Sometimes it is like Lego. This is automation in the purest sense of the word. There is also a lot of great tooling and integrations with other systems. There is a small risk here if we are not careful: continuous delivery is a way of working that is often very useful but never a goal in itself.
 ![Gold faucet Gerber pixabay.com]({{ site.baseurl }}/assets/images/pipelines/faucet-Gerber-Pixabay.jpg)
 
-Compare it with a kitchen faucet. The tap is there to get water. New and nicer taps will always be made, but the thing that matters, water, just has to come out well. And always! And as soon as possible.
+Compare it with a kitchen faucet. The tap is there to get water. Newer and nicer taps will always be made, but the thing that matters, water, just has to come out. And always! And as soon as possible.
 
-For someone who is not directly in the development team, there are a number of signals that you can watch out for:
+For someone who is not directly in the development team, there are some actions or behaviour that you can watch out for:
 * A pipeline that fails very often. This can of course have hundreds of reasons, but somewhere there must be a concrete cause. If there are a number of causes (or there is no clear answer to the question of what the cause is) then I recommend doing a value stream mapping with the team. This is a very nice and fast way to see where the most profit can be made. [https://en.wikipedia.org/wiki/Value-stream_mapping]
-* A pipeline that has been broken for longer. You often have to deal with a lack of shared knowledge and no DevOps mindset. One of the mantras of continuous delivery is: 'if you break it, you fix it'. In principle, fixing the pipeline comes first.
-* A lot of time is spent on the pipeline. Although, like all infrastructure matters, time must be spent, it is also necessary to consider what they are worth for these matters. Sometimes we are optimizing with regard to continuous delivery, while an end user will never see that millisecond gain in the automatic tests in the application. In fact, we do not spend all the time we invest in this sub-optimization on improving the user experience! In order to optimize the right things, a value stream mapping can also offer the solution here.
-* No visibility / dashboards and alerts. The essence of continuous integration is fast feedback. The pipeline works in such a way that when something is wrong, we know immediately. After all, the pipeline is failing. You should therefore be able to see this at all times by means of dashboards and alerting.  
+* A pipeline that has been broken for a longer period of time. You often have to deal with a lack of shared knowledge and no DevOps mindset. One of the mantras of continuous delivery is: 'if you break it, you fix it'. In principle, fixing the pipeline comes first.
+* A lot of time is spent on the pipeline. Although, like all infrastructure matters, time must be spent, it is also necessary to consider what it is worth to you. Sometimes we are optimizing with regard to continuous delivery, while an end user will never see that millisecond gain in the automatic tests in the application. In fact, all the time we invest in this sub-optimization we are not spending on improving the user experience! In order to optimize the right things, a value stream mapping can also offer a proper starting point here.
+* No visibility / dashboards and alerts. The essence of continuous integration is fast feedback. The pipeline works in such a way that whenever something is wrong, we will know immediately. After all, the pipeline is failing. You should therefore be able to see this at all times by means of dashboards and alerting.  
 * …
 
 ![Value stream mapping]({{ site.baseurl }}/assets/images/pipelines/better-faster-vsm.png)

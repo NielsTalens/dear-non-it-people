@@ -1,19 +1,17 @@
-I"s<p>Continuous integration, delivery &amp; deployment are a number of concepts that you have probably heard more and more often in recent years. They are not entirely new topics and have actually become the industry standard for software development over the last 10 years.</p>
-
-<p>In principle, continuous delivery is the process of automatically getting the code from someone’s computer to the end user. In short the three continuous things that you have probably heard about more often:</p>
+I"�<p>Continuous integration, delivery and deployment are a couple of concepts that you have probably heard more and more often in recent years. They are not entirely new topics and have actually become the industry standard for software development over the last 10 years.</p>
 
 <h1 id="continuous-integration">Continuous integration</h1>
-<p>In this article I described how version management works in the basics. Continuous integration is triggered by the version control system. Every time a piece of code is sent to the version control repo server, the continuous integration server also gets to work. We then say that the pipeline is running. This pipeline is no different than a number of scripts that tell the server to build the code, then do the automatic test, then check the code for security and code quality and then put this code somewhere. If something is wrong in one step, the whole process stops.</p>
+<p>In <a href="/why-are-they-talking-about-trunk-based-development-for-the-last-couple-of-weeks/">this article</a> I described how version management works in the basics. Continuous integration is triggered by the version control system. Every time a piece of code is sent to the version control repo server, the continuous integration server also gets to work. We then say that the pipeline is running. This pipeline is no different than a number of scripts that tell the server to build the code, then do the automatic test, then check the code for security and code quality and then put this code somewhere. If something is wrong in one step, the whole process stops.</p>
 
 <h1 id="continuous-delivery">Continuous delivery</h1>
 <p>Putting software on the server was often a difficult and annoying job. On the one hand it was a repetitive thing, but there were often scripts that you had to adhere to. If you were lucky. If you were unlucky, there was one person who always did it and knew how to do things. You know, the person who could never go on vacation.
-<img src="/dear-non-it-people/assets/images/pipelines/cd-all.png" alt="continuous delivery" /></p>
+<img src="/assets/images/pipelines/cd-all.png" alt="continuous delivery" /></p>
 
 <p>The continuous delivery process automatically puts the software on the server when you want it. It ensures that database changes or migrations are implemented, configuration in the network is correct, stops and starts the server if necessary, etc. Then it runs the acceptance tests to see if everything is okay.</p>
 
 <h1 id="continuous-deployment">Continuous deployment</h1>
 <p>The difference between continuous delivery and continuous deployment is that with continuous delivery you decide for yourself when you deploy to production, but with continuous deployment this always happens. So every change goes directly to the end user:
-<img src="/dear-non-it-people/assets/images/pipelines/deployment.png" alt="continuous deployment" /></p>
+<img src="/assets/images/pipelines/deployment.png" alt="continuous deployment" /></p>
 
 <p>What problems are we actually solving?</p>
 <ul>
@@ -29,7 +27,7 @@
 
 <h1 id="gold-plating">Gold plating</h1>
 <p>Creating and using a good pipeline is not only extremely useful and costs / time saving, but is also for many people also very nice to make. This is automation in the purest sense of the word. There is also a lot of great tooling and integrations with other systems. There is a small danger in this if we are not careful: continuous delivery is a way of working that is often very useful but never a goal in itself.
-<img src="/dear-non-it-people/assets/images/pipelines/faucet-Gerber-Pixabay.jpg" alt="Gold faucet Gerber pixabay.com" /></p>
+<img src="/assets/images/pipelines/faucet-Gerber-Pixabay.jpg" alt="Gold faucet Gerber pixabay.com" /></p>
 
 <p>Compare it with a kitchen faucet. The tap is there to get water. New and nicer taps will always be made, but the thing that matters, water, just has to come out well. And always! And as soon as possible.</p>
 
@@ -42,7 +40,7 @@
   <li>…</li>
 </ul>
 
-<p><img src="/dear-non-it-people/assets/images/pipelines/better-faster-vsm.png" alt="Value stream mapping" /></p>
+<p><img src="/assets/images/pipelines/better-faster-vsm.png" alt="Value stream mapping" /></p>
 
 <p>A continuous deployment pipeline is therefore nothing more than a number of scripts that are executed in a logical order. We used to run the scripts ourselves and now Jenkins, Azure DevOps, GitLab or Bamboo does this for us. Nothing more and nothing less. The essence is to get feedback on the quality of the software and the process to get it to the user asap. This way of working can therefore ensure that we now spend that time on making our products more beautiful and better.</p>
 :ET
