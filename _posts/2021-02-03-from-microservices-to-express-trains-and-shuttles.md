@@ -1,5 +1,5 @@
 ---
-title: From microservices to express trains an shuttles
+title: From microservices to express trains and shuttles
 layout: post
 author: sal
 image: assets/images/microservices/header-sergio-souza.jpg
