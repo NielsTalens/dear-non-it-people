@@ -1,5 +1,5 @@
 ---
-title: Unit testen, code coverage an cucumbers
+title: Unit tests, code coverage and cucumbers
 layout: post
 author: sal
 image: assets/images/testing/header.jpg
