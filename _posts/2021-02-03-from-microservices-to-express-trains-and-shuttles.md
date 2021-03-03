@@ -11,7 +11,7 @@ categories:
 - what is this thing?
 - microservices
 - architecture
-featured: true
+featured: false
 hidden: false
 ---
 
