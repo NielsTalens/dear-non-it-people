@@ -13,8 +13,8 @@ categories:
 featured: false
 hidden: false
 ---
-*Picture: Michael Gaida*
 
+*Picture: Michael Gaida*.
 Continuous integration, delivery and deployment are a couple of concepts that you have probably heard more and more often in recent years. They are not entirely new topics and have actually become the industry standard for software development over the last 10 years.
 
 # Continuous integration

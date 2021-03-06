@@ -11,7 +11,8 @@ categories:
 featured: false
 hidden: false
 ---
-*Picture: Khari Hayden*
+
+*Picture: Khari Hayden*.
 
 This article is about something we call versioning. It is one of the basic things you have to set up when developing software. You've probably heard the word Git before. This is one of the most widely used version control systems. Other names you may sometimes hear are: SVN, Mecurial, GitLab, GitHub, BitBucket, Azure devops or AWS code commit.
 

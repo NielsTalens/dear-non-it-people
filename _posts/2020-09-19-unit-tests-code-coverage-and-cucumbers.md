@@ -8,7 +8,7 @@ categories:
 - quality
 - speed of delivery
 - what is this thing?
-featured: true
+featured: false
 hidden: false
 ---
 

@@ -15,8 +15,7 @@ featured: false
 hidden: false
 ---
 
-*Picture: Sergio Souza*
-
+*Picture: Sergio Souza*.
 In recent years, we have put a lot of effort into making software products better and in a faster paste. We often state that we need a low time-to-market in order to quickly obtain feedback from end users. On one hand by adapting some processes (agile), but the biggest effect is still due to technical developments such as server virtualization, containers, continuous integration / delivery, new frameworks, development supporting tools etc.
 
 This day there is better supporting tooling to create applications that are made up of small pieces, also called microservices, so that in theory you can make adjustments quickly with multiple teams or you have a lot of users who want to use certain functionality. You know, just like Netflix! In some specific cases this yields a lot, but people sometimes forget that it can also cost a lot.

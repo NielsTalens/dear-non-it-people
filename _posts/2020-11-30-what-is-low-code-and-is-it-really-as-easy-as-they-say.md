@@ -20,7 +20,7 @@ Low-code means that you can make software products without mastering a programmi
 In the end you get the same kind of product as you would if you do not use a low-code platform. A database, a back end, a front end and something like an API gateway. It's not like there's a whole new architecture or languages ​​running in the background. The biggest difference is that you go all-in on the platform. While in software development you can choose from different languages ​​and change them if you want, you cannot easily switch between different low-code platforms.
 
 # What problem do we solve?
-The problem, however, is not that we are unable to make software quickly. You have had frameworks with which you can do this for almost 20 years and more are being added. The problem is also not that we can't bring software to the end user without manual action. Nor is the problem that we are unable to create software that makes our users very happy. 
+The problem, however, is not that we are unable to make software quickly. You have had frameworks with which you can do this for almost 20 years and more are being added. The problem is also not that we can't bring software to the end user without manual action. Nor is the problem that we are unable to create software that makes our users very happy.
 
 Still, there are a number of promises that are made when it comes to low-code / no-code. I will discuss a few of them:
 

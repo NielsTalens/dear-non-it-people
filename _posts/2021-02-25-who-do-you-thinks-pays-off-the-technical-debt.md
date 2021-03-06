@@ -12,7 +12,8 @@ categories:
 featured: true
 hidden: false
 ---
-*Picture: Chevanon*
+
+*Picture: Chevanon*.
 You have probably heard the term technical debt from time to time. It's often used as an explanation of why we cannot create and deploy as fast and flexible as we want or need. Why the throughput of a new feature is so long.
 
 ![debt]({{ site.baseurl }}/assets/images/technical-debt/debt.jpg)
