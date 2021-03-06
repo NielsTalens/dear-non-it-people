@@ -3,6 +3,8 @@ title: About pipelines and continuous everything and more
 layout: post
 author: sal
 image: assets/images/pipelines/pipes-MichaelGaida.jpg
+beforetoc: "Picture: Michael Gaida"
+toc: true
 description: What are al these continuous things nowadays? Does it really matter?
 categories:
 - continuous delivery
@@ -14,15 +16,13 @@ featured: false
 hidden: false
 ---
 
-*Picture: Michael Gaida*
-
 Continuous integration, delivery and deployment are a couple of concepts that you have probably heard more and more often in recent years. They are not entirely new topics and have actually become the industry standard for software development over the last 10 years.
 
-# Continuous integration
+## Continuous integration
 
 In [this article]({{ site.baseurl }} /why-are-they-talking-about-trunk-based-development-for-the-last-couple-of-weeks/) I described the basics of version management. Continuous integration is triggered by the version control system. Every time a piece of code is sent to the version control server, the continuous integration server also gets to work. We then say that the pipeline is running. This pipeline is no different than a number of scripts that tell the server to build the code, then do the automatic test, then check the code for security and code quality and then put this code somewhere. If something is wrong in one step, the whole process stops.
 
-# Continuous delivery
+## Continuous delivery
 
 Putting software on the server was often a difficult and annoying job. On one hand it was a repetitive thing, but there were often scripts that you had to adhere to. If you were lucky. If you were unlucky, there was one person who always did it and knew how to do things. You know, the person who could never go on vacation.
 
@@ -30,7 +30,7 @@ Putting software on the server was often a difficult and annoying job. On one ha
 
 The continuous delivery process automatically puts the software on the server. It ensures that database changes or migrations are implemented, configuration in the network is correct, stops and starts the server if necessary, etc. Then it runs the acceptance tests to see if everything is okay.
 
-# Continuous deployment
+## Continuous deployment
 
 The difference between continuous delivery and continuous deployment is that in the case of continuous delivery you decide for yourself when to deploy to production, but with continuous deployment this automaticly happens. So every change goes directly to the end user:
 
@@ -47,7 +47,7 @@ What problems are we actually solving?
 * Possibility for thresholds. By including the quality checks we can ensure that the pipeline fails if we are below these criteria,
 * ...
 
-# Gold plating
+## Gold plating
 
 Creating and using a good pipeline is not only extremely useful and costs / time saving, but is for many people also very nice to do. Sometimes it is like Lego. This is automation in the purest sense of the word. There is also a lot of great tooling and integrations with other systems. There is a small risk here if we are not careful: continuous delivery is a way of working that is often very useful but never a goal in itself.
 

@@ -3,16 +3,16 @@ title: How DevOps metrics are especially helpful for non-it people
 layout: post
 author: sal
 image: assets/images/dora-metrics/pexels-anna-nekrashevich-header.jpg
+beforetoc: "Picture: Anna Nekrashevich"
+toc: true
 description: How can these technical looking metrics help non-IT people?
 categories:
 - technical practices
 - devops
 - metrics
 featured: true
-hidden: false
+hidden: true
 ---
-
-*Picture: Anna Nekrashevich*
 
 I often see that companies who create their products in an agile way are looking for ways to see how things really are going. From the start of agile software development there was a healthy suspicion in regards to metric, reports and dashboards.
 

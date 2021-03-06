@@ -3,6 +3,8 @@ title: From microservices to express trains and shuttles
 layout: post
 author: sal
 image: assets/images/microservices/header-sergio-souza.jpg
+beforetoc: "Picture: Sergio Souza"
+toc: true
 description: Who will be the one that pays off the technical debt? To be honest it
   will be all of us!
 categories:
@@ -14,8 +16,6 @@ categories:
 featured: false
 hidden: false
 ---
-
-*Picture: Sergio Souza*
 
 In recent years, we have put a lot of effort into making software products better and in a faster paste. We often state that we need a low time-to-market in order to quickly obtain feedback from end users. On one hand by adapting some processes (agile), but the biggest effect is still due to technical developments such as server virtualization, containers, continuous integration / delivery, new frameworks, development supporting tools etc.
 

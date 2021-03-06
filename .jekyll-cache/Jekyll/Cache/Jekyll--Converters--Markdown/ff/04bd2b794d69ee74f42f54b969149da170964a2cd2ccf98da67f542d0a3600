@@ -1,0 +1,76 @@
+I"�<p>*Picture: *</p>
+
+<p>You have probably heard the term technical debt from time to time. It’s often used as an explanation of why we cannot create and deploy as fast and flexible as we want or need. Why the throughput of a new feature is so long.</p>
+
+<p><img src="/assets/images/technical-debt/debt.jpg" alt="debt" /></p>
+
+<p>The thing with debt, like taking a loan at the bank, buying stuff on credit or the choice to allow technical debt, is that there is a conscious choice made to create this debt even if it seems the choice is sometimes made by others.</p>
+
+<p>And just like any debt, someone will have to pay off the technical debt. The bigger the debt, the more it hurts. Now the question remains: who is responsible and who will pay off the debt?</p>
+
+<blockquote>
+  <p>Famous last words: We will improve our quality after this period!</p>
+</blockquote>
+
+<p>**Let’s say you and I are going to start a new company. We are going to deliver goods with drones. We will build and maintain our own fleet of drones and people can just order and pay through their bank app.</p>
+
+<p>**So we now have the shop (the garage in which we will build and maintain our fleet) and we have our business (selling and delivering goods). The game is now to grow as much as possible without spending all funds we have at once. This means we have some choices to make with each their own effect on our technical debt:</p>
+
+<h1 id="choice-security">Choice: security</h1>
+
+<p><img src="/assets/images/technical-debt/artem-beliaikin-security.jpg" alt="Security" />
+<em>Picture: Artem Beliaikin</em></p>
+
+<p>We choose to not spend too much on the security of the drones and invest more in new features. We have never had one crash into a customer’s house yet and we expect that the chances are not so high. They can be hacked but we think we will be able to get up and running faster without bothering about security too much.</p>
+
+<h1 id="choice-maintenance">Choice: maintenance</h1>
+
+<p><img src="/assets/images/technical-debt/maintenance.jpg" alt="Maintenance" /></p>
+
+<p>We will spend more time on building new drones so we can deliver more goods for more customers and spend less on maintenance of used drones. This means we will invest less on software updates and checks on the moving parts of the machines.</p>
+
+<h1 id="choice-manual-updates">Choice: manual updates</h1>
+
+<p><img src="/assets/images/technical-debt/polina-zimmerman-error.jpg" alt="Security" />
+<em>Picture: Polina Zimmerman</em></p>
+
+<p>We can either choose to spend some budget on a way to automate the updates of our drones instead of doing it one by one. It will cost us quite some but the other choice is to have one or two engineers updating the manually which often has to be redone since people make mistakes.</p>
+
+<h1 id="choice-revise-the-architecture-and-refactoring">Choice: revise the architecture and refactoring</h1>
+
+<p><img src="/assets/images/technical-debt/cottonbro-architecture.jpg" alt="Security" />
+<em>Picture: Cottonbro</em></p>
+
+<p>We found out that customers want to have a video stream of the drone when delivering their goods so we added a camera on top and we also had to add bigger rotors for the weight. For now we chose to glue the camera and used duct tape for the wires but then we added an extra rotor because of the weight of the tape but we also needed a bigger battery for the extra rotor which we needed for the tape and we glued that one…..</p>
+
+<p>The thing with building stuff is that after adding new features we sometimes end up having other dependencies and needs than when we started. We can make things more complex by working around the challenges which often results in more complexity.</p>
+
+<h1 id="choice-quality">Choice: quality</h1>
+
+<p><img src="/assets/images/technical-debt/drone-wars.jpg" alt="Security" /></p>
+
+<p>Well, we found out that however the industry standard is to check whether the bolts are tightened properly, we can save time by assuming we alway do a good job (yes people who do not write automated tests. I really refer to you right now).</p>
+
+<p>So we are one and a half years later and we had some hacked drones that delivered the goods to the wrong address, some that caught on fire and crashed in buildings and there is a small nuclear threat from Germany which we cannot say for sure we didn’t inflict.</p>
+
+<p>So the question remains: who pays off the technical debt?
+Well if we do not structurally change things it is all of us. But sadly we are not even paying off the debt but only the interest.</p>
+
+<ul>
+  <li>It is the engineering department since their work is mostly fixing stuff that is already broke and they never seem to do some work they love. A lot of work is done manually and takes much time. Also they need to hire more and more engineers to be able to create stability. Overtime is also pretty common.</li>
+  <li>It is you since you won’t be able to ship as many deliveries as you would like and the rating of the service is decreasing. You have more great ideas but with the current state you are glad if the rate of complaints decrease. The costs of overdue maintenance are increasing.</li>
+  <li>It is the customer who was very delighted to become one but saw that the quality of service went down. It makes them sad because they want to love the product but the product doesn’t seem to love them.</li>
+</ul>
+
+<p>I can imagine it is hard for you, a non-drone engineer, to make think about these choices since you cannot oversee the consequences properly. If we inject some highly complicated sounding tech words during our discussions we can be sure it doesn’t make the overseeing any easier. If we really want to prevent more debt we should agree on some standards. I personally hold on to the following:</p>
+
+<ul>
+  <li>Quality is non-negotiable</li>
+  <li>Security is non-negotiable</li>
+  <li>Maintenance is a structural part of our work</li>
+  <li>Refactoring is a structural part of our work</li>
+  <li>Automation is key</li>
+</ul>
+
+<p>Consciously making small temporary technical debt can be a good choice sometimes. But in general there are not so many reasons for choosing tech debt. We have the knowledge, the tools and the people to build the right thing the right way. If you choose it, do it consciously and never ever forget that every debt needs to be paid off.</p>
+:ET

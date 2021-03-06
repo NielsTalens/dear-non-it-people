@@ -3,6 +3,7 @@ title: What is low code and is it really as easy as they say?
 layout: post
 author: sal
 image: assets/images/lowcode/header.jpg
+toc: true
 description: What problems do we solve with low-code or no-code and is it as easy
   as they say? Can I create low-code products myself?
 categories:
@@ -14,12 +15,12 @@ hidden: false
 lazyimages: enabled
 ---
 
-# What is low-code / no-code?
+## What is low-code / no-code?
 Low-code means that you can make software products without mastering a programming language. You often do this on a low-code development platform that provides the environment on which you can do this. In theory, you do this by selecting existing elements that you then put on pages in your application. You can compare the idea a bit with how you create pages in Wordpress, Confluence or Microsoft Teams and put different elements on them.
 
 In the end you get the same kind of product as you would if you do not use a low-code platform. A database, a back end, a front end and something like an API gateway. It's not like there's a whole new architecture or languages ​​running in the background. The biggest difference is that you go all-in on the platform. While in software development you can choose from different languages ​​and change them if you want, you cannot easily switch between different low-code platforms.
 
-# What problem do we solve?
+## What problem do we solve?
 The problem, however, is not that we are unable to make software quickly. You have had frameworks with which you can do this for almost 20 years and more are being added. The problem is also not that we can't bring software to the end user without manual action. Nor is the problem that we are unable to create software that makes our users very happy.
 
 Still, there are a number of promises that are made when it comes to low-code / no-code. I will discuss a few of them:
@@ -62,7 +63,7 @@ Low-code / no-code should also contain automatic testing and continuous integrat
 
 I have yet not found a truly open source no-coding platform myself. So there will always be a price tag attached.
 
-# What? Again not a one-size-fits-all solution?
+## What? Again not a one-size-fits-all solution?
 
 ![What?]({{ site.baseurl }}/assets/images/lowcode/young.jpg)
 

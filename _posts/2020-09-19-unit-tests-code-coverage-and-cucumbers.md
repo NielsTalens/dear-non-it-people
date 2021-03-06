@@ -3,6 +3,7 @@ title: Unit tests, code coverage and cucumbers
 layout: post
 author: sal
 image: assets/images/testing/header.jpg
+toc: true
 description: What is automated testing and how does it work?
 categories:
 - quality
@@ -14,7 +15,7 @@ hidden: false
 
 In this article I will tell you a little more about automatic testing, a very important part of continuous integration. I will explain concepts such as unit testing, integration testing, end to end testing, acceptance testing, TDD, BDD, code coverage.
 
-# From validation afterwards to designing together
+## From validation afterwards to designing together
 
 There was a time when software development had very tightly defined phases and where testing was the last one . If there was any budget left that is. In practice, this often turned into lengthy 'it's not a bug, it's a feature', 'But the user flow is bad but we build it anyway' discussions. Nowadays, we tend to view testing as an integral part of software development and not a separated topic. Automatic testing is now also an accepted standard way of working.
 
@@ -28,7 +29,7 @@ As an example for this article, we take a shopping card from a webshop:
 In principle, we are already looking at at least 4 features (where I leave the footer out of consideration), each of which has its own functionality. All functionality together results in a customer being able to prepare his or her cart and order it in the next step:
 
 ![testing]({{ site.baseurl }}/assets/images/testing/testing-02.png)
-# Unit testing
+## Unit testing
 
 ![testing]({{ site.baseurl }}/assets/images/testing/testing-03.gif)
 
@@ -52,13 +53,13 @@ In this example you only pay shipping costs if you order items under $ 300. The 
 
 We also do the same for the import charges and the total of the card. It is very good to know that whatever we change in the code, the calculations will at least be correct.
 
-# TDD
+## TDD
 
 TDD stands for Test Driven Development. It is a way of working where you first write the test and only then the code. In order to be able to write the test initially, a developer must have a very good understanding of what the functionality should do.
 
 The sentence: suppose the item price is $ 50 and the  quantity 3 then the expected total price of all items is $ 150 gives a broader context and an example of what actually needs to be done. Making the functionality is a matter of passing this test.
 
-# Integration testing
+## Integration testing
 
 ![testing]({{ site.baseurl }}/assets/images/testing/testing-05.gif)
 
@@ -71,13 +72,13 @@ If we click on the plus next to the shoe, we expect the prices to be adjusted as
 * Suppose the item price is $ 70 and the quantity is 1, then the expected total price of all items is $ 70
 * If the quantity in the top component changes to 2 then the expected total price of all items is $ 140
 
-# End-2- end / acceptance tests / BDD / ATDD
+## End-2- end / acceptance tests / BDD / ATDD
 
 These tests have the most in common with how the user experiences the software. We take a look at the behavior of the application here. Descriptions of these tests are also often written in human language.
 
 ![testing]({{ site.baseurl }}/assets/images/testing/testing-07.gif)
 
-# BDD & ATDD
+## BDD & ATDD
 
 BDD stands for Behavior Driven Development and ATDD for Acceptance Test Driven Development. End-to-end means that we test the application from start to finish.
 
@@ -104,16 +105,16 @@ And in the case of an incorrect code:
 * And I click onApply,
 * Then I see the error message "Your coupon is not correct,"
 
-# Cucumber
+## Cucumber
 
 Maybe you've heard your team talk about Cucumber and thought that was strange since it was hours from lunch. Cucumber is simply a tool that has been around for some time with which you can do BDD & ATDD testsing. Although Cucumber is well known, many new automatic testing tools have been created in recent years.
 
-# Code coverage
+## Code coverage
 
 The code coverage is the number of relevant lines of code that are tested. Often a number like 80% is used, but there are also plenty of teams that want to keep the coverage around 100%. When this coverage becomes too low, you can cause the pipeline to stop. However, coverage does not say anything about the quality of the tests! You can also write bad automatic tests. Something that can help with this (testing your tests) are mutation tests, but that goes too deep for this article.
 
 ![testing]({{ site.baseurl }}/assets/images/testing/testing-09.png)
-# No guarantee
+## No guarantee
 
 Bugs can always occur in every application, and often at the most impossible moments. Due to the automation of testing the moment when we talk about what and how to test is now much earlier in the process.  During the development the automatic tests are done continuously by the developers, with every commit on the test and production servers.
 

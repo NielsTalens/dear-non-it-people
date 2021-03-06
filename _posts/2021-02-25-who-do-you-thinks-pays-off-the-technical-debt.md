@@ -3,6 +3,8 @@ title: Who do you thinks pays off the technical debt?
 layout: post
 author: sal
 image: assets/images/technical-debt/chevanon.jpg
+beforetoc: "Picture: Chevanon"
+toc: true
 description: Who will be the one that pays off the technical debt? To be honest it
   will be all of us!
 categories:
@@ -10,10 +12,8 @@ categories:
 - quality
 - what is this thing?
 featured: true
-hidden: false
+hidden: true
 ---
-
-*Picture: Chevanon*
 
 You have probably heard the term technical debt from time to time. It's often used as an explanation of why we cannot create and deploy as fast and flexible as we want or need. Why the throughput of a new feature is so long.
 
@@ -29,27 +29,27 @@ And just like any debt, someone will have to pay off the technical debt. The big
 
 **So we now have the shop (the garage in which we will build and maintain our fleet) and we have our business (selling and delivering goods). The game is now to grow as much as possible without spending all funds we have at once. This means we have some choices to make with each their own effect on our technical debt:
 
-# Choice: security
+## Choice: security
 
 ![Security]({{ site.baseurl }}/assets/images/technical-debt/artem-beliaikin-security.jpg)
 *Picture: Artem Beliaikin*
 
 We choose to not spend too much on the security of the drones and invest more in new features. We have never had one crash into a customer's house yet and we expect that the chances are not so high. They can be hacked but we think we will be able to get up and running faster without bothering about security too much.
 
-# Choice: maintenance
+## Choice: maintenance
 
 ![Maintenance]({{ site.baseurl }}/assets/images/technical-debt/maintenance.jpg)
 
 We will spend more time on building new drones so we can deliver more goods for more customers and spend less on maintenance of used drones. This means we will invest less on software updates and checks on the moving parts of the machines.
 
-# Choice: manual updates
+## Choice: manual updates
 
 ![Security]({{ site.baseurl }}/assets/images/technical-debt/polina-zimmerman-error.jpg)
 *Picture: Polina Zimmerman*
 
 We can either choose to spend some budget on a way to automate the updates of our drones instead of doing it one by one. It will cost us quite some but the other choice is to have one or two engineers updating the manually which often has to be redone since people make mistakes.
 
-# Choice: revise the architecture and refactoring
+## Choice: revise the architecture and refactoring
 
 ![Security]({{ site.baseurl }}/assets/images/technical-debt/cottonbro-architecture.jpg)
 *Picture: Cottonbro*
@@ -58,7 +58,7 @@ We found out that customers want to have a video stream of the drone when delive
 
 The thing with building stuff is that after adding new features we sometimes end up having other dependencies and needs than when we started. We can make things more complex by working around the challenges which often results in more complexity.
 
-# Choice: quality
+## Choice: quality
 
 ![Security]({{ site.baseurl }}/assets/images/technical-debt/drone-wars.jpg)
 
