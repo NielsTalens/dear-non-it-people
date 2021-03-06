@@ -12,7 +12,8 @@ featured: true
 hidden: false
 ---
 
-*Picture: Anna Nekrashevich*.
+*Picture: Anna Nekrashevich*
+
 I often see that companies who create their products in an agile way are looking for ways to see how things really are going. From the start of agile software development there was a healthy suspicion in regards to metric, reports and dashboards.
 
 But to be honest we have, despite never ending discussions about velocity and story points, burn up or burn downs often not a great track record of creating predictability and transparency on a product level. We have had years in which the mantra 'bringing value to end users' was enough. But exactly what this value was remained something quite vague often.
