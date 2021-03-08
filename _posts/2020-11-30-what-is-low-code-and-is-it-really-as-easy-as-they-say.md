@@ -4,12 +4,10 @@ layout: post
 author: sal
 image: assets/images/lowcode/header.jpg
 toc: true
-description: What problems do we solve with low-code or no-code and is it as easy
-  as they say? Can I create low-code products myself?
+description: Low-code/no-code is is often presented as a new promise that will solve many of our problems. What problems do we even solve with low-code or no-code and is it as easy as they say? Can I easily create products with low-code myself?
 categories:
 - low-code / no-code
 - buzzwords
-- what is this thing?
 featured: false
 hidden: false
 lazyimages: enabled

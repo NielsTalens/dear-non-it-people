@@ -5,9 +5,9 @@ author: sal
 image: assets/images/dora-metrics/pexels-anna-nekrashevich-header.jpg
 beforetoc: "Picture: Anna Nekrashevich"
 toc: true
-description: How can these technical looking metrics help non-IT people?
+description: There are a couple of metrics that give a healthy and honest overview on the status of our software delivery. They look technical but they are not. Here I describe how you can read them and have better control of the process by monitoring the right things.
 categories:
-- technical practices
+- technical practices simplyfied
 - devops
 - metrics
 featured: true

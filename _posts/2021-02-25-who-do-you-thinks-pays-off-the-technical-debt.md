@@ -5,12 +5,10 @@ author: sal
 image: assets/images/technical-debt/chevanon.jpg
 beforetoc: "Picture: Chevanon"
 toc: true
-description: Who will be the one that pays off the technical debt? To be honest it
-  will be all of us!
+description: In this article I explain what technical debt is and what the reasons to create this debt can be. Who decides to create debt and who will be the one that pays it off?
 categories:
 - technical debt
 - quality
-- what is this thing?
 featured: true
 hidden: true
 ---

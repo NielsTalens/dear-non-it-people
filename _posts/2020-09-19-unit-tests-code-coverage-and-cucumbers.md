@@ -4,11 +4,11 @@ layout: post
 author: sal
 image: assets/images/testing/header.jpg
 toc: true
-description: What is automated testing and how does it work?
+description: In this article I will explain what automated testing is, which types of testing there are and what the importance for a non-IT person is.
 categories:
 - quality
 - speed of delivery
-- what is this thing?
+- technical practices simplyfied
 featured: false
 hidden: false
 ---

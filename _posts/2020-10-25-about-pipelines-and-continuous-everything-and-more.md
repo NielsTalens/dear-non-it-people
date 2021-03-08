@@ -5,13 +5,13 @@ author: sal
 image: assets/images/pipelines/pipes-MichaelGaida.jpg
 beforetoc: "Picture: Michael Gaida"
 toc: true
-description: What are al these continuous things nowadays? Does it really matter?
+description: What are al these continuous things in IT nowadays? In this article we will look at the benefits and the essence of continuous delivery for the end users.
 categories:
 - continuous delivery
-- technical practices
+- continuous integration
+- technical practices simplyfied
 - quality
 - speed of delivery
-- what is this thing?
 featured: false
 hidden: false
 ---

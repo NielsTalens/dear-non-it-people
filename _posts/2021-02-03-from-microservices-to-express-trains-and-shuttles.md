@@ -5,12 +5,11 @@ author: sal
 image: assets/images/microservices/header-sergio-souza.jpg
 beforetoc: "Picture: Sergio Souza"
 toc: true
-description: Who will be the one that pays off the technical debt? To be honest it
-  will be all of us!
+description: In the last couple of years the trend was to go to a microservices architecture. The promise is better software products delivered in a faster paste. Is this the case? Are we now delivering better software sooner?
 categories:
 - technical debt
+- technical practices simplyfied
 - buzzwords
-- what is this thing?
 - microservices
 - architecture
 featured: false
