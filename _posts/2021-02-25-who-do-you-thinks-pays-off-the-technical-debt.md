@@ -9,8 +9,8 @@ description: In this article I explain what technical debt is and what the reaso
 categories:
 - technical debt
 - quality
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 You have probably heard the term technical debt from time to time. It's often used as an explanation of why we cannot create and deploy as fast and flexible as we want or need. Why the throughput of a new feature is so long.
