@@ -6,8 +6,8 @@ image: assets/images/grass-greener/grass.jpeg
 description: There are many reasons to use cloud technology and cloud services but using them doesn't mean your products will automaticly be better.
 categories:
 - technical practices simplyfied
-- devops
-- metrics
+- cloud
+- buzzwords
 featured: true
 hidden: true
 ---
