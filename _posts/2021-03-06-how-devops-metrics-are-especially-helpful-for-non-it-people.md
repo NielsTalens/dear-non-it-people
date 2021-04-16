@@ -10,8 +10,8 @@ categories:
 - technical practices simplyfied
 - devops
 - metrics
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 I often see that companies who create their products in an agile way are looking for ways to see how things really are going. From the start of agile software development there was a healthy suspicion in regards to metric, reports and dashboards.
