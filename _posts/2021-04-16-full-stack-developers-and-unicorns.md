@@ -35,7 +35,7 @@ Well, luckily, nowadays teams have more freedom in maintaining the way they deli
 
 - They need to know how to set up, run and maintain automated tests, testtools and testdata.
 
-Their stack, the tools they should be able to maintain, is now doubled.
+Their stack, the tools they must master, has now doubled.
 
 ### Add some more complexity
 
