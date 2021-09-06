@@ -3,3 +3,14 @@ _site
 *.swp
 .sass-cache
 *~
+
+# Generated output.
+_site/
+
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# Bundle's config.
+.bundle/
+vendor/

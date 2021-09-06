@@ -8,8 +8,8 @@ categories:
 - technical practices simplyfied
 - cloud
 - buzzwords
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 *I have to be honest here. I was quite surprised when the term cloud became relevant again a couple years ago. This is because in my memory there already was a time in which the cloud was presented as 'the next big world changing' concept.*
