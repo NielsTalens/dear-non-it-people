@@ -3,10 +3,10 @@ title: Be aware of the 'innovation is key' trap
 layout: post
 author: sal
 image: assets/images/innovation-trap/trap.jpeg
-description: This article is about the difference between technical and business innovation. We often we need tecnical innovation while we, from an IT perspective, need to serve business innovation and thus understand the Why first.
+description: This article is about the difference between technical and business innovation. We often focus on tecnical innovation while we, from an IT perspective, need to serve business innovation and thus understand the Why first.
 categories:
 - technical practices simplyfied
-- innovation
+- innovation 
 featured: true
 hidden: true
 ---
