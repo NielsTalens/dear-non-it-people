@@ -1,6 +1,6 @@
 # Site
-name: "Dear non-IT people"
-title: "Dear non-IT people"
+name: "Hello non-IT people"
+title: "Hello non-IT people"
 description: "IT is often a black box for 'outsiders' with its own jargon, many abbreviations and often even its own culture. Things often sound very complex and new buzzwords pop up regularly with a new promise of speed, cost savings and future stability. Here you can find IT stuff explained and simplified."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
@@ -19,7 +19,7 @@ authors:
     email: info@nielstalens.nl
     web: https://nielstalens.nl
     linkedin: https://www.linkedin.com/in/nielstalens/
-    description: "Author of Dear non-it people, freelance Product Owner and IT Lead. Recreational developer. Interested in building the right things right."
+    description: "Author of Non-it people, freelance Product Owner and IT Lead. Recreational developer. Interested in building the right things right."
   john:
     name: John
     display_name: John
