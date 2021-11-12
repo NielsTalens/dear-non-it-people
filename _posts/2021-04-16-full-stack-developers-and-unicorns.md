@@ -9,8 +9,8 @@ description: A lot of vacancies call for full-stack developers but is that even 
 categories:
 - full-stack
 - buzzwords
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 In recent years the belief that the only good developer is a full stack developer is adopted by a lot of companies. Most vacancies demand full stack developers but in general the term is not really understood very well.

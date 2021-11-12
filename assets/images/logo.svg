@@ -25,9 +25,9 @@
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:zoom="16.409457"
-     inkscape:cx="628.2048"
-     inkscape:cy="475.45752"
+     inkscape:zoom="3.868651"
+     inkscape:cx="597.75359"
+     inkscape:cy="520.8534"
      inkscape:window-width="1920"
      inkscape:window-height="1080"
      inkscape:window-x="1440"
@@ -38,24 +38,171 @@
        position="72.83739,144.37302"
        orientation="0,-1"
        id="guide39979" />
+    <sodipodi:guide
+       position="126.4879,101.77688"
+       orientation="1,0"
+       id="guide115745" />
+    <sodipodi:guide
+       position="165.50774,84.227798"
+       orientation="1,0"
+       id="guide162843" />
+    <sodipodi:guide
+       position="189.32307,95.906705"
+       orientation="1,0"
+       id="guide162845" />
+    <sodipodi:guide
+       position="178.36536,85.322065"
+       orientation="0,-1"
+       id="guide172520" />
   </sodipodi:namedview>
   <defs
      id="defs2" />
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="n"
+     inkscape:label="n-logo"
      style="display:inline">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="161.76154"
-       y="127.5502"
-       id="text81143"><tspan
+       y="127.89215"
+       id="text81143"
+       inkscape:export-filename="/Users/nelis/Dev/dear-non-it-people/assets/images/logo-square.png"
+       inkscape:export-xdpi="1677.548"
+       inkscape:export-ydpi="1677.548"><tspan
          sodipodi:role="line"
          id="tspan81141"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Brush Script MT';-inkscape-font-specification:'Brush Script MT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffcc00;stroke-width:0.264583"
          x="161.76154"
-         y="127.5502">N.</tspan></text>
+         y="127.89215">N.</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g138246"
+     inkscape:label="n minus dot"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="161.76154"
+       y="127.5502"
+       id="text138244"
+       inkscape:export-filename="/Users/nelis/Dev/dear-non-it-people/assets/images/logo-square.png"
+       inkscape:export-xdpi="1677.548"
+       inkscape:export-ydpi="1677.548"><tspan
+         sodipodi:role="line"
+         id="tspan138242"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:'Brush Script MT';-inkscape-font-specification:'Brush Script MT, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffcc00;stroke-width:0.264583"
+         x="161.76154"
+         y="127.5502">N</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="non-it people"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0.420687px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="143.31293"
+       y="136.11372"
+       id="text109609"
+       inkscape:export-filename="/Users/nelis/Dev/dear-non-it-people/assets/images/logo-square.png"
+       inkscape:export-xdpi="1677.548"
+       inkscape:export-ydpi="1677.548"><tspan
+         sodipodi:role="line"
+         id="tspan109607"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffcc00;stroke-width:0.264583"
+         x="143.31293"
+         y="136.11372"
+         dx="0">non-it people</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="line"
+     style="display:inline">
+    <path
+       style="fill:#ffcc00;stroke:#ffcc00;stroke-width:0.274454px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 156.46389,129.82016 h 18"
+       id="path124615"
+       inkscape:export-filename="/Users/nelis/Dev/dear-non-it-people/assets/images/logo-square.png"
+       inkscape:export-xdpi="1677.548"
+       inkscape:export-ydpi="1677.548" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="block"
+     style="display:none">
+    <rect
+       style="fill:none;stroke:#ffcc00;stroke-width:0.421469;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect131124"
+       width="48.935596"
+       height="6.0917883"
+       x="160.47243"
+       y="121.59415"
+       inkscape:export-filename="/Users/nelis/Dev/dear-non-it-people/assets/images/logo-square.png"
+       inkscape:export-xdpi="1677.548"
+       inkscape:export-ydpi="1677.548" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0.238125px;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="169.43568"
+       y="126.94289"
+       id="text109609-0"
+       inkscape:export-filename="/Users/nelis/Dev/dear-non-it-people/assets/images/logo-square.png"
+       inkscape:export-xdpi="1677.548"
+       inkscape:export-ydpi="1677.548"><tspan
+         sodipodi:role="line"
+         id="tspan109607-3"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:7.05556px;font-family:'Apple SD Gothic Neo';-inkscape-font-specification:'Apple SD Gothic Neo, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffcc00;stroke-width:0.264583"
+         x="169.43568"
+         y="126.94289">on-it people</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="lines"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0.526521px;display:inline;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="158.70558"
+       y="132.73116"
+       id="text109609-0-1"
+       inkscape:export-filename="/Users/nelis/Dev/dear-non-it-people/assets/images/logo-square.png"
+       inkscape:export-xdpi="1677.548"
+       inkscape:export-ydpi="1677.548"><tspan
+         sodipodi:role="line"
+         id="tspan109607-3-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffcc00;stroke-width:0.264583"
+         x="158.70558"
+         y="132.73116">non-it</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;letter-spacing:0.325437px;display:inline;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="158.20978"
+       y="135.99094"
+       id="text109609-0-0"
+       inkscape:export-filename="/Users/nelis/Dev/dear-non-it-people/assets/images/logo-square.png"
+       inkscape:export-xdpi="1677.548"
+       inkscape:export-ydpi="1677.548"><tspan
+         sodipodi:role="line"
+         id="tspan109607-3-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffcc00;stroke-width:0.264583"
+         x="158.20978"
+         y="135.99094">people</tspan></text>
+    <rect
+       style="display:inline;fill:none;stroke:#ffcc00;stroke-width:0.428922;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect131124-6"
+       width="17.571077"
+       height="17.571079"
+       x="156.43117"
+       y="119.73696"
+       inkscape:export-filename="/Users/nelis/Dev/dear-non-it-people/assets/images/logo-square.png"
+       inkscape:export-xdpi="1677.548"
+       inkscape:export-ydpi="1677.548" />
   </g>
 </svg>
