@@ -37,7 +37,7 @@ In this setup, often referred to as silos, there is a lack of overall shared und
 - ...
 
 ![devops-clock-delivery]({{ site.baseurl }}/assets/images/can-you-devops/tima-miroshnichenko-2.jpeg)
-*Photo: tima-miroshnichenko*
+*Photo: Tima Miroshnichenko*
 
 In order to mitigate all of the above it could be a solution that we do not distinguish between making, designing, delivering and maintaining anymore. You and me, as a team, are responsible for everything that is needed to bring the customer requests to our customers. 
 So from now on we design, make and deliver clocks together and are also both responsible for the maintenance. 
